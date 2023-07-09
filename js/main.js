@@ -113,7 +113,7 @@ function comprar () {
       completarCompra();
     }
   } else {
-    let opcion = confirm(`Código inexistente. Presione "Aceptar" para reintentarlo.`);
+    let opcion = confirm(`🛑 Código inexistente. Presione "Aceptar" para reintentarlo.`);
     if (opcion === true) {
     comprar();
   }
